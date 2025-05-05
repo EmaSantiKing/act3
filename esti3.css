@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 2rem;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto 2rem auto;
+    gap: 2rem;
+}
+
+#imagen {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+#imagen img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+#imagen h3 {
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+#Info {
+    flex: 2 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#Info h3 {
+    font-size: 1.3rem;
+    color: #222;
+}
+
+#Precio h3 {
+    color: #e74c3c;
+    font-size: 1.5rem;
+}
+
+#Texto h3 {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #555;
+}
+
+#contenedor2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#contenedor2 h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#contenedor2 h2:hover {
+    color: #2980b9;
+}
